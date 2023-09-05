@@ -1,0 +1,208 @@
+h1,
+h3,
+body,
+head,
+input,
+html {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #371b58;
+  height: 1910px;
+  background-image: url(../images//nirvana\ background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-banner {
+  display: flex;
+  justify-content: center;
+  padding: none;
+  margin: none;
+  background-color: #4c3575;
+  height: auto;
+  width: 100%;
+}
+.background-image img {
+  width: 100%;
+  height: auto;
+}
+.top-banner h1 {
+  margin: none;
+  padding: 10px;
+  text-align: center;
+  font-style: bold;
+  letter-spacing: 0.2em;
+  font-size: 60px;
+  color: #cdc1df;
+}
+.welcome {
+  background-color: #4c3575;
+  width: 100%;
+  height: auto;
+}
+.welcome h1 {
+  font-size: 30px;
+  color: #cdc1df;
+  padding: 20px;
+  text-align: center;
+}
+.welcome h1 span {
+  font-size: 1.3em;
+  font-style: bold;
+}
+.top-banner .signup {
+  margin: 0;
+  padding: 0;
+}
+.top-banner .signup a h3 {
+  font-size: 20px;
+  color: #cdc1df;
+  background-color: #371b58;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.albums-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.album-container {
+  transition: all;
+  transition-property: all;
+  transition-duration: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  /* bottom: 400px; */
+  margin: 20px;
+  padding: 40px 10px 70px 10px;
+  flex-direction: column;
+  position: relative;
+}
+
+.album-container img {
+  transition-duration: 1s;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+.album-container h3.label {
+  transition: all;
+  transition-property: all;
+  transition-duration: 1s;
+  color: white;
+  background-color: #4c3575;
+  letter-spacing: 0px;
+  font-size: 0px;
+  border-radius: 10px;
+}
+.album-container p.description {
+  transition: all;
+  transition-duration: 1s;
+  transition-property: all;
+
+  color: white;
+  font-size: 0px;
+  width: 60%;
+  text-align: left;
+}
+img.middle-img {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+.bottom-section {
+  padding: none;
+  margin: none;
+
+  background-color: #4c3575;
+  height: 600px;
+  width: 100%;
+}
+.bottom-section .bottom-section-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-section .bottom-section-container h1 {
+  color: #cdc1df;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.bottom-section .bottom-section-container p.bottom-section {
+  color: #cdc1df;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.bottom-section .bottom-section-container .concert-photo-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-section .bottom-section-container .concert-photo-container img {
+  width: 600px;
+  height: auto;
+}
+
+.img-label-container {
+  transition: 1s;
+}
+.img-label-container h3 {
+  transition: 1s;
+  font-size: 0px;
+  padding: 5px;
+  color: #cdc1df;
+  text-align: center;
+}
+a h1.home-link {
+  text-decoration: none;
+  font-style: none;
+  transition: all;
+  transition-duration: 1s;
+  font-size: 30px;
+  color: #cdc1df;
+  padding: 20px;
+  text-align: center;
+  background-color: #4c3575;
+}
+/* animations */
+a h1.home-link:hover {
+  letter-spacing: 4px;
+}
+.album-container:hover img {
+  width: 400px;
+  height: auto;
+  background-color: #5b4b8a;
+  border-radius: 10px;
+}
+.album-container:hover h3.label {
+  font-size: 24px;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+.album-container:hover p.description {
+  font-size: 24px;
+  background-color: #4c3575;
+  padding: 10px;
+}
+.img-label-container:hover h3 {
+  font-size: 24px;
+}
+.img-label-container:hover {
+  background-color: #371b58;
+  padding: 10px;
+  border-radius: 10px;
+}
+.sign-up input[type="submit"]:hover {
+  letter-spacing: 2px;
+}
